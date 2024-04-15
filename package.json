@@ -1,5 +1,8 @@
 {
   "name": "tokenBalance-app",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "axios": "^1.6.8",
+    "express": "^4.19.2"
+  }
 }
