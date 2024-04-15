@@ -1,8 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "tokenBalance-app"
+  name: tokenBalance-app
 spec:
   type: service
-  owner: user:guest
+  owner: guests
+  system: test-app
   lifecycle: experimental
+  apiConsumedBy: ['component:react-app1']
